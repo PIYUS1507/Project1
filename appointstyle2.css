@@ -2,9 +2,15 @@
 
 body {
     font-family: Arial, sans-serif;
+    padding-top: 100px;
+    /*background-color:#72A0C1;*/
+    background-image:url("appointment.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
+    background-color:white;
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
