@@ -63,6 +63,7 @@ a:hover{
     top: 0;
     left: 0;
     z-index: 1;
+    float: right;
 }
 .overlay2 p{
     background-color: rgb(0,0,0,0.5);
