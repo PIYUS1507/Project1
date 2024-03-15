@@ -1,10 +1,18 @@
 /* styles.css */
 
-body {
+.appoint {
     font-family: Arial, sans-serif;
     padding-top: 100px;
     /*background-color:#72A0C1;*/
     background-image:url("appointment.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.emergency{
+    font-family: Arial, sans-serif;
+    padding-top: 100px;
+    /*background-color:#72A0C1;*/
+    background-image:url("Medical-Emergency.png");
     background-repeat: no-repeat;
     background-size: cover;
 }

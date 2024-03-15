@@ -11,26 +11,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doctor Appointment</title>
+    <title>Emergency Form</title>
     <link rel="stylesheet" href="appointstyle2.css">
 </head>
-<body class="appoint">
+<body class="emergency">
     <div class="container">
-        <h1>Doctor Appointment</h1>
+        <h1>Emergency Form</h1>
       
-        <form id="appointment-form">
-            <label for="date">Date:</label>
-            <input type="date" id="date" name="date" required><br><br>
+        <form id="emergency-form">
+            <label for="Name">Name:</label>
+            <input type="text" id="name" name="text" required><br><br>
             
-            <label for="time">Time:</label>
-            <input type="time" id="time" name="time" required><br><br>
+            <label for="gender">Gender:</label>
+            <input type="text" id="gender" name="gender" required><br><br>
             
             <label for="description">Description:</label><br>
             <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
             
             <button type="submit">Create Appointment</button>
         </form>
-        <div id="appointment-list">
+        <div id="emergency-list">
             <script src="1appoint.js"></script>
         </div>
     </div>
