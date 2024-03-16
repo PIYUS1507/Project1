@@ -35,10 +35,20 @@ a:hover{
     padding-right: 20px;
     padding-top: 5px;
 }
-.vid { position:relative; }
+.vid { position:relative;
+}
 .vid video {
+    width: 1900px;
+    height: 650px;
+ 
     position:relative;
-    z-index:0;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
 }
 .overlay {
     position:absolute;
@@ -70,4 +80,10 @@ a:hover{
     font-size: 50px;
     color:white;
    
+}
+.about{
+    position: absolute;
+}
+.about p{
+    color: aqua;
 }
