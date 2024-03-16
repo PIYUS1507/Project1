@@ -1,4 +1,4 @@
-a{
+.bar a{
     text-align: center;
     width: 100px;
     height: 30px;
@@ -6,9 +6,21 @@ a{
     transition:width 2s;
     text-decoration: none;
     color: black;
+    font-family: sans-serif;
+}
+#home{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    transition:width 2s;
+    text-decoration: none;
+    color:white;
+    font-family: sans-serif;
+    background-color: #4D7C8A;
 }
 a:hover{
-    background-color:#016064;
+    background-color:#4D7C8A;
     color: white;
 }
 .bar{
@@ -35,15 +47,16 @@ a:hover{
     padding-right: 20px;
     padding-top: 5px;
 }
-.vid { position:relative;
+.img { 
+    position:relative;
 }
-.vid video {
+.img img {
     width: 1900px;
     height: 650px;
  
     position:relative;
     object-fit: cover;
-    position: absolute;
+    
     left: 0;
     right: 0;
     top: 0;
@@ -81,9 +94,19 @@ a:hover{
     color:white;
    
 }
-.about{
-    position: absolute;
+.Mentorship{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-.about p{
-    color: aqua;
+.Mentorship img{
+    border-radius: 50%;
+}
+.Mentorship p{
+    color: #1341a3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Mentorship a{
+    text-decoration: none;
 }
