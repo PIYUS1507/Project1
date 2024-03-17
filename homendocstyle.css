@@ -18,10 +18,12 @@
     color:white;
     font-family: sans-serif;
     background-color: #4D7C8A;
+    border-radius: 10px;
 }
-a:hover{
+#i1:hover{
     background-color:#4D7C8A;
     color: white;
+    border-radius: 10px;
 }
 .bar{
     float: right;
@@ -51,9 +53,9 @@ a:hover{
     position:relative;
 }
 .img img {
-    width: 1900px;
+    width: 1827px;
     height: 650px;
- 
+    margin: 0;
     position:relative;
     object-fit: cover;
     
@@ -75,23 +77,33 @@ a:hover{
  position: relative;
 }
 
-.vid2 video{
-    position: relative;
-    z-index: 0;
-}
-.overlay2{
-    background-color: transparent;
-    height: 500px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    float: right;
-}
-.overlay2 a{
-    background-color: rgb(0,0,0,0.5);
-    font-size: 50px;
+
+
+#appoint{
+    position:relative;
+    font-size: 25px;
+    background-color:#4e95c5;
     color:white;
+    margin-left: 25%;
+    margin-top: 60px;
+    border-radius: 30px;
+    padding: 32px 16px;
+    border-color: transparent;
+
+   
+}
+#emergency{
+    position:relative;
+    font-size: 25px;
+    background-color:#4e95c5;
+    color:white;
+    margin-left: 10%;
+    margin-top: 60px;
+    border-radius: 30px;
+    padding: 32px 16px;
+    border-color: transparent;
+    width: 270px;
+
    
 }
 .Mentorship{
@@ -109,4 +121,40 @@ a:hover{
 }
 .Mentorship a{
     text-decoration: none;
+}/*https://github.com/Dhanashreem24/Project1.git*/
+.container{
+    background-image: url(doc4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 650px;
+}
+.overlay3{
+    background: #000000a1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.text{
+    position:absolute;
+    top:50%;
+    left: 15%;
+    z-index: 2;
+    font-family: sans-serif;
+}
+.text h1{
+    font-size: 60px;
+    color:whitesmoke;
+    text-align: center;
+    margin: 0;
+}
+.text p{
+    font-size: 20px;
+    color:whitesmoke;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 6px;
+    margin: 10px;
 }
